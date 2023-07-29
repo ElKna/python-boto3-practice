@@ -5,6 +5,8 @@
 ### 실행 방법
 Python3이 설치된 상태에서  
 Terminal에 AWS-CLI를 연결한 후
+
+Role Check시에는 연결한 AWS User에 `IAMReadOnlyAccess` 정책이 연결되어있어야 조회가 가능함
 ```bash
 python3 -m pip install boto3
 python3 -m pip install boto3-stubs
